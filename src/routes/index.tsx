@@ -3,6 +3,7 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 
 import Features from "~/components/starter/features/features";
 import Hero from "~/components/starter/hero/hero";
+import Testimonials from "~/components/starter/testimonials/testimonials";
 
 // This doesn't work with SVG images
 // import ImageHealth from "~/media/health.svg?jsx";
@@ -13,6 +14,7 @@ export default component$(() => {
     <>
       <Hero />
       <Features />
+      <Testimonials />
     </>
   );
 });

@@ -1,0 +1,7 @@
+.testimonial {
+    @apply text-gray-800 text-base px-6 mb-5
+}
+
+.name {
+    @apply text-gray-500 text-xs md:text-sm ps-6
+}
