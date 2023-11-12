@@ -102,11 +102,21 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Welcome to Qwik",
+  title: "Smart Health Monitoring Wristwatch",
   meta: [
     {
       name: "description",
       content: "Qwik site description",
     },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1",
+    }
   ],
+  links: [
+    {
+      rel: "stylesheet",
+      href: "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700"
+    }
+  ]
 };

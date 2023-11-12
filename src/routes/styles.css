@@ -20,9 +20,7 @@ html {
 }
 
 body {
-  background: var(--qwik-dark-background);
-  color: var(--qwik-dark-text);
-  overflow-x: hidden;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* HEADINGS ------------------------------------- */
@@ -84,40 +82,7 @@ ul {
 }
 
 /* CONTAINER ------------------------------------ */
-.container {
-  margin: 0 auto;
-  padding: 30px 40px;
-}
-.container.container-purple {
-  background: var(--qwik-light-purple);
-}
-.container.container-dark {
-  background: var(--qwik-dark-background);
-  color: var(--qwik-dark-text);
-}
-.container.container-center {
-  text-align: center;
-}
-.container.container-flex {
-  /* does nothing on mobile */
-}
-.container.container-spacing-xl {
-  padding: 50px 40px;
-}
 
-@media screen and (min-width: 768px) {
-  .container {
-    padding: 50px 80px;
-  }
-  .container.container-spacing-xl {
-    padding: 100px 60px;
-  }
-  .container.container-flex {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-  }
-}
 
 /* BUTTONS -------------------------------------- */
 a.button,
