@@ -3,7 +3,7 @@
  * View the full documentation at https://tailwindcss.com
  */
 @tailwind base;
-/*@tailwind components;*/
+@tailwind components;
 @tailwind utilities;
 
 /**
