@@ -1,8 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import styles from "./header.module.css";
 
-export default component$(() => {
-  return (
+export default component$(() => (
     <header class={styles.header}>
       <nav>
         <div class="container mx-auto px-6 py-2 flex justify-between items-center">
@@ -28,5 +27,5 @@ export default component$(() => {
         </div>
       </nav>
     </header>
-  );
-});
+  )
+)
