@@ -1,10 +1,9 @@
 import { component$ } from "@builder.io/qwik";
+import SectionTitle from "~/components/typography/section-title/section-title";
 
 export default component$(() => (
   <section class="container mx-auto px-6 p-10">
-    <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">
-      Features
-    </h2>
+    <SectionTitle class="text-center text-gray-800 mb-8" text="Features" />
     <div class="flex items-start flex-wrap mb-20">
       <div class="w-full md:w-1/2">
         <h4 class="text-3xl text-gray-800 font-bold mb-3">Exercise Metric</h4>
