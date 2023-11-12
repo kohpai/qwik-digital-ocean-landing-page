@@ -1,0 +1,7 @@
+.group {
+  @apply w-full md:w-1/4 text-center md:text-left
+}
+
+.anchor {
+  @apply hover:underline text-gray-600 hover:text-orange-500
+}
